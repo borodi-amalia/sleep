@@ -11,3 +11,5 @@ streamlit
 plotly
 statsmodels
 cryptography
+python-dotenv
+python-dotenv

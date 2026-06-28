@@ -1,42 +1,25 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-
-# Editor-based HTTP Client requests
 /httpRequests/
-
-# Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-
-# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
-
-# Virtual environments
 .venv/
 venv/
 env/
-
-# Sensitive security files
 secret.key
-
-# Unencrypted data files
 data/*.csv
 data/*.xlsx
-
-# Keep encrypted datasets if you want to include them in the project
 !data/*.encrypted
-
-# Logs and audit files
 logs/
 *.log
-
-# OS / editor files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+

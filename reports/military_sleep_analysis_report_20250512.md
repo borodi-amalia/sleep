@@ -97,5 +97,4 @@ Environmental factors such as temperature extremes, noise, and air quality have 
 - Algorithm used: Random Forest Classification
 - Data collection period: May 2022
 
----
-*Report automatically generated using Python and Machine Learning*
+
