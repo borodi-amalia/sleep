@@ -1,0 +1,5 @@
+.env
+secret.key
+logs/
+data/*.encrypted
+data/*.xlsx

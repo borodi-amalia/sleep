@@ -1,0 +1,146 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Military Sleep Quality Analysis</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 20px;
+                    line-height: 1.6;
+                }
+                h1, h2, h3 {
+                    color: #2c3e50;
+                }
+                table {
+                    border-collapse: collapse;
+                    width: 100%;
+                    margin: 20px 0;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 12px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #3498db;
+                    color: white;
+                }
+                tr:nth-child(even) {
+                    background-color: #f2f2f2;
+                }
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    margin: 20px 0;
+                }
+                .highlight {
+                    background-color: #ffffcc;
+                    padding: 2px 4px;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Military Sleep Quality Analysis Report</h1>
+<p><strong>Report Date:</strong> 12 May 2025</p>
+<h2>Executive Summary</h2>
+<p>This report presents the analysis of <strong>1022 military personnel</strong> to understand the factors influencing sleep quality in challenging environments. We identified significant correlations between environmental factors and sleep quality, using machine learning models for prediction.</p>
+<h3>Key Findings:</h3>
+<ol>
+<li><strong>Our optimized model can predict sleep quality</strong> with an accuracy of 89.1%</li>
+<li><strong>19.4% of participants report problematic sleep</strong> ("Pretty Bad" or "Very Bad")</li>
+<li><strong>Environmental factors have a significant negative impact</strong> on sleep quality</li>
+<li><strong>Key personal factors like energy levels and stress</strong> also strongly influence sleep quality</li>
+</ol>
+<h2>1. Sleep Quality Distribution</h2>
+<p><img alt="Sleep Quality Distribution" src="optimized_confusion_matrix.png" /></p>
+<p><strong>Observations:</strong>
+- 80.6% of participants report good sleep quality ("Quite Good" or "Very Good")
+- 19.4% report problematic sleep ("Pretty Bad" or "Very Bad")
+- Average sleep quality score: 2.95/4</p>
+<h2>2. Main Factors Influencing Sleep Quality</h2>
+<p><img alt="Feature Importance" src="optimized_feature_importance.png" /></p>
+<h3>Top 5 Factors (in order of importance):</h3>
+<ol>
+<li><strong>What is the weekly frequency of days in the last month when you could not fall asleep within 30 minutes?</strong> (5.9%)</li>
+<li><strong>In the last month, how often have you struggled to stay awake while driving, eating or during a social activity?</strong> (5.1%)</li>
+<li><strong>I feel peaceful and calm</strong> (4.8%)</li>
+<li><strong>In the last month, what is your weekly frequency of coughing at night and snoring loudly?</strong> (4.6%)</li>
+<li><strong>I feel full of energy</strong> (4.4%)</li>
+</ol>
+<h2>3. Impact of Environmental Factors</h2>
+<p>Environmental factors such as temperature extremes, noise, and air quality have significant impacts on sleep quality:</p>
+<ul>
+<li><strong>Nighttime noise</strong> is one of the most disruptive factors</li>
+<li><strong>Temperature extremes</strong> (both cold and hot) negatively affect sleep quality</li>
+<li><strong>Breathing difficulties</strong> during sleep are strongly correlated with poor sleep quality</li>
+</ul>
+<h2>4. Sleep Patterns</h2>
+<h3>Key Correlations:</h3>
+<ul>
+<li><strong>Sleep Duration vs Quality</strong>: Longer sleep duration correlates with better sleep quality</li>
+<li><strong>Sleep Latency vs Quality</strong>: Longer time to fall asleep correlates with reduced sleep quality</li>
+<li><strong>Multiple Night Awakenings</strong>: Strong negative correlation with sleep quality</li>
+</ul>
+<p><strong>Interpretation:</strong>
+- More hours of sleep = better quality
+- Longer time to fall asleep = worse quality
+- Multiple awakenings = worse quality</p>
+<h2>5. AI Model Performance</h2>
+<p><img alt="Confusion Matrix" src="optimized_confusion_matrix.png" /></p>
+<h3>Model Results:</h3>
+<ul>
+<li><strong>Overall Accuracy</strong>: {model_accuracy:.1%}</li>
+<li><strong>Best at Predicting</strong>: "Quite Good" sleep quality (highest recall)</li>
+<li><strong>Challenges</strong>: Extreme categories ("Very Bad"/"Very Good")</li>
+</ul>
+<h2>6. Recommendations</h2>
+<h3>For Improving Sleep Quality:</h3>
+<ol>
+<li><strong>Noise Control</strong></li>
+<li>Implement sound insulation measures</li>
+<li>
+<p>Use earplugs or white noise</p>
+</li>
+<li>
+<p><strong>Temperature Management</strong></p>
+</li>
+<li>Maintain room temperature between 18-22°C</li>
+<li>
+<p>Ensure adequate ventilation</p>
+</li>
+<li>
+<p><strong>Sleep Routine Optimization</strong></p>
+</li>
+<li>Consistent bedtime</li>
+<li>
+<p>Reduce time to fall asleep through relaxation techniques</p>
+</li>
+<li>
+<p><strong>Continuous Monitoring</strong></p>
+</li>
+<li>Use the AI model for personalized predictions</li>
+<li>Adjust conditions based on feedback</li>
+</ol>
+<h2>7. Limitations and Future Research</h2>
+<ul>
+<li>Data is self-reported (possible subjective bias)</li>
+<li>Cross-sectional study (not longitudinal)</li>
+<li>We recommend objective monitoring with devices</li>
+</ul>
+<h2>Appendices</h2>
+<h3>Technical Data:</h3>
+<ul>
+<li>Total participants: {total_participants}</li>
+<li>Features analyzed: {total_features}</li>
+<li>Algorithm used: Random Forest Classification</li>
+<li>Data collection period: May 2022</li>
+</ul>
+<hr />
+<p><em>Report automatically generated using Python and Machine Learning</em></p>
+        </body>
+        </html>
+        
